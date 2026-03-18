@@ -9,37 +9,37 @@ The solution uses Python and Gemini AI to extract structured data from emails an
 
 ### 🚀 Key Features
 
-📥 Email polling and content extraction
+- 📥 Email polling and content extraction
 
-🤖 AI-based data structuring (Gemini API)
+- 🤖 AI-based data structuring (Gemini API)
 
-🗂️ Lightweight CRM built with Flask
+- 🗂️ Lightweight CRM built with Flask
 
-🔗 Easy integration via HTTP (REST API)
+- 🔗 Easy integration via HTTP (REST API)
 
-🔄 Continuous real-time processing
+- 🔄 Continuous real-time processing
 
 ### ⚙️ How It Works
 
-The script monitors an email inbox (Tigrmail)
+- The script monitors an email inbox (Tigrmail)
 
-A new email is received → content is extracted
+- A new email is received → content is extracted
 
-Gemini AI converts text into structured JSON:
+- Gemini AI converts text into structured JSON:
 
-  First name
+    - First name
   
-  Last name
+    - Last name
   
-  Email
+    - Email
   
-  Loan amount
+    - Loan amount
   
-  Purpose
+    - Purpose
 
-Data is sent to a local Flask CRM
+- Data is sent to a local Flask CRM
 
-Applications are stored and accessible via API
+- Applications are stored and accessible via API
 
 ### 🛠️ Tech Stack
 

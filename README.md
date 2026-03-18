@@ -1,13 +1,13 @@
 # finance-fund-AI-automation
-📩 Loan Application Automation System
+## 📩 Loan Application Automation System
 
-📌 Overview
+### 📌 Overview
 
 This project automates the processing of loan applications received via email. It was designed to replace manual workflows in a financial services company (FinServe), where employees had to re-enter data, prepare documents, and track applications manually.
 
 The solution uses Python and Gemini AI to extract structured data from emails and store it in a simple CRM.
 
-🚀 Key Features
+### 🚀 Key Features
 
 📥 Email polling and content extraction
 
@@ -19,7 +19,7 @@ The solution uses Python and Gemini AI to extract structured data from emails an
 
 🔄 Continuous real-time processing
 
-How It Works
+### ⚙️ How It Works
 
 The script monitors an email inbox (Tigrmail)
 
@@ -27,28 +27,28 @@ A new email is received → content is extracted
 
 Gemini AI converts text into structured JSON:
 
-First name
-
-Last name
-
-Email
-
-Loan amount
-
-Purpose
+  First name
+  
+  Last name
+  
+  Email
+  
+  Loan amount
+  
+  Purpose
 
 Data is sent to a local Flask CRM
 
 Applications are stored and accessible via API
 
-Tech Stack
+### 🛠️ Tech Stack
 
-Python
+  Python
 
-Flask
-
-Gemini API
-
-Tigrmail API
-
-requests, imaplib, email
+  Flask
+  
+  Gemini API
+  
+  Tigrmail API
+  
+  requests, imaplib, email

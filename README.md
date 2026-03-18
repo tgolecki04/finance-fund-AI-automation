@@ -43,12 +43,22 @@ The solution uses Python and Gemini AI to extract structured data from emails an
 
 ### 🛠️ Tech Stack
 
-  Python
+- Python
 
-  Flask
+- Flask
   
-  Gemini API
+- Gemini API
+
+- Tigrmail API
   
-  Tigrmail API
-  
-  requests, imaplib, email
+- requests, imaplib, email
+
+### 💡 Business Value
+
+- ⏱️ Saves time (no manual data entry)
+
+- 📈 Improves productivity
+
+- 🔄 Standardizes data processing
+
+- 🤖 Introduces AI into operations
